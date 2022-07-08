@@ -3,8 +3,8 @@ Description=I Spy Notify notifications observer
 Documentation=man:i-spy-notify(1)
 
 [Service]
-Type=notify
-ExecStart=/usr/bin/i-spy-notify
+Type=simple
+ExecStart=/usr/local/bin/i-spy-notify
 Restart=on-failure
 
 [Install]
