@@ -2,6 +2,8 @@
 
 I Spy Notify lets you watch Linux desktop notifications and run scripts for each notification. It's great for logging, displaying popups, and playing sounds.
 
+![Quick demo video](./doc/i-spy-notify-video.mp4)
+
 ## Installation
 
 Ensure that the following dependencies are installed.
