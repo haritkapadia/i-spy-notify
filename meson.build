@@ -23,4 +23,4 @@ install_data(sources: 'i-spy-notify.desktop', install_dir: 'share/applications')
 install_data(sources: 'i-spy-notify.service', install_dir: 'lib/systemd/user')
 install_data(sources: [
   'doc/examples/simple.json'
-], install_dir: 'share/doc/i-spy-notify/examples/simple.json')
+], install_dir: 'share/doc/i-spy-notify/examples')

@@ -84,7 +84,8 @@ int main(int argc, char **argv) {
 	gtk_init(&argc, &argv);
 	const gchar *options_file = g_build_filename(
 		g_get_user_config_dir(),
-		"h-notifications.json",
+		"i-spy-notify",
+		"i-spy-notify.json",
 		NULL
 	);
 	json_object *options = json_object_from_file(options_file);

@@ -358,8 +358,8 @@ DBusHandlerResult handler(DBusConnection *conn, DBusMessage *message, void *user
 		}
 
 		json_object *notification = get_notification(message);
-		puts(json_object_to_json_string(notification));
 		json_object *hooks = json_object_object_get(state->options, "hooks");
+		printf("%ld hooks\n", json_object_array_length(hooks));
 		for (size_t i = 0; i < json_object_array_length(hooks); ++i) {
 			json_object *hook = json_object_array_get_idx(hooks, i);
 			run_hook(hook, notification);
