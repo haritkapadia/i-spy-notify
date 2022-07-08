@@ -1,0 +1,11 @@
+[Unit]
+Description=I Spy Notify notifications observer
+Documentation=man:i-spy-notify(1)
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/i-spy-notify
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

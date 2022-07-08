@@ -1,0 +1,13 @@
+{
+    "hooks": [
+        {
+            "command": "zenity",
+            "arguments": [
+                "--info",
+                "--title", ["summary"],
+                "--text", ["body"],
+                "--window-icon", ["image", "path"]
+            ]
+        }
+    ]
+}

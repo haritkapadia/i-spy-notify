@@ -1,0 +1,9 @@
+{
+    "hooks": [
+        {
+            "shell": true,
+            "command": "(date && echo -e \"$1 - $2\n$3\n\") >> ~/notification-history.log",
+            "arguments": [["app_name"], ["summary"], ["body"]]
+        }
+    ]
+}
